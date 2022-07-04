@@ -18,6 +18,7 @@ var (
 )
 
 func main() {
+	//intial connection
 	region := os.Getenv("AWS_REGION")
 	awsSession, err := session.NewSession(&aws.Config{
 		Region: aws.String(region)})
