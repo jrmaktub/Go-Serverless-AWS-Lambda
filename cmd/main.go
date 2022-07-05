@@ -31,7 +31,7 @@ func main() {
 
 }
 
-const tableName = "LambdaInGoUser"
+const tableName = "go-serverless-aws"
 
 //events will be what Lambda will give us
 func handler(req events.APIGatewayProxyRequest) (*events.APIGatewayProxyResponse, error) {
